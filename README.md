@@ -140,34 +140,3 @@ Link: https://drive.google.com/drive/folders/1217uhIvLg9ZrYNKOR3XTRFSurt4miQrd?u
 
 You can produce samples using it on all datasets we tested in the paper. It assumes the `--exp` argument is set to `exp`.
 
-## References
-
-If you find the code/idea useful for your research, please consider citing
-
-```bib
-@inproceedings{song2020improved,
-  author    = {Yang Song and Stefano Ermon},
-  editor    = {Hugo Larochelle and
-               Marc'Aurelio Ranzato and
-               Raia Hadsell and
-               Maria{-}Florina Balcan and
-               Hsuan{-}Tien Lin},
-  title     = {Improved Techniques for Training Score-Based Generative Models},
-  booktitle = {Advances in Neural Information Processing Systems 33: Annual Conference
-               on Neural Information Processing Systems 2020, NeurIPS 2020, December
-               6-12, 2020, virtual},
-  year      = {2020}
-}
-```
-
-and/or our previous work
-
-```bib
-@inproceedings{song2019generative,
-  title={Generative Modeling by Estimating Gradients of the Data Distribution},
-  author={Song, Yang and Ermon, Stefano},
-  booktitle={Advances in Neural Information Processing Systems},
-  pages={11895--11907},
-  year={2019}
-}
-```
