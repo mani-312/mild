@@ -1,6 +1,6 @@
 # Momentum Imbued Langevin Dynamics (MILD)
 
-This repo contains the official implementation for the paper Momentum Imbued Langevin Dynamics (MILD). 
+This repo contains the official implementation for the paper [Momentum Imbued Langevin Dynamics (MILD)](https://ieeexplore.ieee.org/abstract/document/10446376). 
 
 -----------------------------------------------------------------------------------------
 
@@ -134,9 +134,22 @@ After running for different T values, we can plot graph like in the notebook `gr
 
 ## 1D and 2D data sampling
 `MILD_1D_2D.ipynb` will walk us through the applying MILD to 1D and 2D known density functions and can clearly see the speedup acheived in sampling strategy against Unadjusted Langevin Dynamics.
+
 ## Pretrained Checkpoints
 
 Link: https://drive.google.com/drive/folders/1217uhIvLg9ZrYNKOR3XTRFSurt4miQrd?usp=sharing
 
 You can produce samples using it on all datasets we tested in the paper. It assumes the `--exp` argument is set to `exp`.
 
+## BibTex
+If you find our repo helpful, please consider citing our paper :)
+```bib
+@inproceedings{shetty2024momentum,
+  title={Momentum-Imbued Langevin Dynamics (MILD) for Faster Sampling},
+  author={Shetty, Nishanth and Bandla, Manikanta and Neema, Nishit and Asokan, Siddarth and Seelamantula, Chandra Sekhar},
+  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6635--6639},
+  year={2024},
+  organization={IEEE}
+}
+```
