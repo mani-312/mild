@@ -1,6 +1,6 @@
 # Momentum Imbued Langevin Dynamics (MILD)
 
-This repo contains the official implementation for the paper [Momentum Imbued Langevin Dynamics (MILD)](https://ieeexplore.ieee.org/abstract/document/10446376). 
+This repo contains the official implementation for the paper [Momentum Imbued Langevin Dynamics (MILD)](https://ieeexplore.ieee.org/abstract/document/10446376). Project page can be found in [this link](https://nishitneema.github.io/publications/mild/).
 
 -----------------------------------------------------------------------------------------
 
